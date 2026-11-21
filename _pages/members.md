@@ -39,8 +39,28 @@ author_profile: true
 </div>
 </div>
 
+<div style="display:flex;gap:18px;align-items:flex-start;border:1px solid #e6e1d5;border-radius:10px;padding:18px;margin:20px 0;">
+<img src="{{ '/resources/刘潇琨.jpg' | relative_url }}" alt="刘潇琨" style="width:96px;height:96px;object-fit:cover;border-radius:50%;flex:0 0 auto;" />
+<div>
+<div style="font-weight:600;font-size:1.05em;">刘潇琨</div>
+<div style="font-size:0.85em;color:#b98b3e;margin:2px 0 8px;">计算机技术专业研究生</div>
+<div style="font-size:0.92em;color:#4a4a4a;line-height:1.7;">主要研究方向为计算机视觉。熟练掌握计算机视觉相关算法、ROS2、PX4、图像采集与机载部署，参与基于无人机的植株检测巡检项目，曾获蓝桥杯研究生组省三等奖。做事踏实严谨，善于沟通协作，具备良好的文献阅读、实验调试与数据分析能力。</div>
+<div style="font-size:0.8em;color:#8a8a8a;margin-top:8px;">关键词：计算机视觉 · ROS2 · PX4 · 无人机巡检 · 机载部署</div>
+</div>
+</div>
+
+<div style="display:flex;gap:18px;align-items:flex-start;border:1px solid #e6e1d5;border-radius:10px;padding:18px;margin:20px 0;">
+<img src="{{ '/resources/陈怡安.jpg' | relative_url }}" alt="陈怡安" style="width:96px;height:96px;object-fit:cover;border-radius:50%;flex:0 0 auto;" />
+<div>
+<div style="font-weight:600;font-size:1.05em;">陈怡安</div>
+<div style="font-size:0.85em;color:#b98b3e;margin:2px 0 8px;">人工智能专业本科生</div>
+<div style="font-size:0.92em;color:#4a4a4a;line-height:1.7;">熟悉 Python、鸿蒙、Spring Boot 与 Dify 工作流搭建，掌握机器学习与数据分析，可独立完成项目部署并推送至服务器。持有 HCIA、CCNA、英语四级证书，多次获校一等奖学金、蓝桥杯 Python 省二等奖，具备竞赛与论文撰写经验，实操扎实，擅长协作开发。</div>
+<div style="font-size:0.8em;color:#8a8a8a;margin-top:8px;">关键词：Python · 鸿蒙 · Spring Boot · Dify · 机器学习</div>
+</div>
+</div>
+
 <div style="border:1px dashed #c9c2b0;border-radius:10px;padding:14px 18px;color:#6b6b6b;font-size:0.9em;">
-其余在读成员（联培研究生、本科生）的照片与简介正在补充。如果你是本组同学，把照片和一段 50 字以内的自我介绍发给吴老师即可。
+其余在读成员的照片与简介正在补充。如果你是本组同学，把照片和一段 50 字以内的自我介绍发给吴老师即可。
 </div>
 
 
