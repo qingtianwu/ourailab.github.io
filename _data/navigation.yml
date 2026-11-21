@@ -1,27 +1,26 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
+# 导航栏顺序即下面列表顺序。注释掉某一项即可隐藏，但页面本身仍会生成。
 
 main:
+  - title: "首页"
+    url: /
+
+  - title: "研究方向"
+    url: /research/
+
+  - title: "成员"
+    url: /members/
+
   - title: "成果发表"
     url: /publications/
 
-  # - title: "Talks"
-  #   url: /talks/    
-
-  - title: "教学"
-    url: /teaching/    
-    
-  - title: "成员"
-    url: /portfolio/
-        
   - title: "团队活动"
     url: /year-archive/
-    
+
+  - title: "教学"
+    url: /teaching/
+
+  - title: "加入我们"
+    url: /join/
+
   - title: "CV"
     url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/

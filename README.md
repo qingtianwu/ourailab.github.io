@@ -1,75 +1,95 @@
-# SZPU Computer Vision Group Academic Pages
-**Academic Pages is a Github Pages template for academic websites.**
+# OurAILab 课题组主页
 
-# Getting Started
+深圳职业技术大学人工智能学院 · 模式分析与机器智能课题组（OurAILab）官网源码。
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+- 线上地址：<https://ourailab.github.io>
+- 技术栈：Jekyll + [Academic Pages](https://academicpages.github.io/) 主题，由 GitHub Pages 自动构建
+- 正常使用时**不需要**在本地装 Ruby，改完推送即可，GitHub 会在 1~2 分钟内重新构建
 
-See more info at https://academicpages.github.io/
+## 目录结构（只需要关心这几个）
 
-## Running locally
+| 路径 | 放什么 |
+| --- | --- |
+| `_config.yml` | 站点标题、作者信息、社交链接、站点地址 |
+| `_data/navigation.yml` | 顶部导航栏的栏目与顺序 |
+| `_pages/about.md` | 首页 |
+| `_pages/research.md` | 研究方向 |
+| `_pages/members.md` | 成员（头像卡片） |
+| `_pages/publications.md` | 成果发表（论文/项目/专利/获奖/开源） |
+| `_pages/teaching.md` | 教学 |
+| `_pages/join.md` | 加入我们 |
+| `_pages/cv.md` | 个人简历 |
+| `_posts/` | 团队活动与新闻，一篇一个文件 |
+| `resources/` | 首页/研究方向配图、成员照片（大图放这里） |
+| `images/` | 站点图标、logo 等主题素材 |
+| `files/` | 论文 PDF、简历 PDF 等可下载文件 |
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+## 怎么加一篇团队活动/新闻
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+在 `_posts/` 下新建 `YYYY-MM-DD-英文短名.md`，文件名里的日期就是发布日期：
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-Start by build the container:
-
-```bash
-docker build -t jekyll-site .
-```
-
-Next, run the container:
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
-
-# Maintenance
-
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
+```markdown
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+title: '课题组参加 XXX 会议'
+date: 2026-11-20
+permalink: /posts/2026/11-20/blog/
+tags:
+  - 学术交流
+---
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+正文第一段。
+
+<div class="archive__image">
+  <img src='/resources/图片文件名.jpg' alt="现场照片" style="max-width:100%;height:auto;" />
 </div>
+
+正文继续。
+```
+
+要点：
+
+- `permalink` 里的年月日要和文件名日期一致，格式为 `/posts/YYYY/MM-DD/blog/`
+- 图片先放进 `resources/`，再用 `/resources/文件名` 引用
+- 图片文件名**尽量不要用空格和括号**，中文名可以用，但更推荐英文
+
+## 怎么改成员
+
+编辑 `_pages/members.md`。成员卡片是一个 HTML 网格，每人一块：
+
+```html
+<div style="text-align:center;">
+<img src="/resources/张三.jpg" alt="张三" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
+<div style="font-weight:600;margin-top:8px;">张三</div>
+<div style="font-size:0.8em;color:#8a8a8a;">2026 届</div>
+</div>
+```
+
+没有照片的人，用首字母圆形占位（同文件里已有示例），不要留空 `img` 标签，否则会显示破图。
+
+照片建议：正方形、边长 400~600px、正面半身、背景干净，总体积控制在 200KB 以内（可用 <https://squoosh.app> 压缩）。
+
+## 怎么改研究方向 / 成果
+
+- 研究方向：`_pages/research.md`，每个方向是「二级标题 + 一段说明 + 一张配图」，照抄格式加一节即可
+- 成果：`_pages/publications.md`，按「期刊论文 / 会议论文 / 在投 / 项目 / 专利 / 获奖 / 开源项目」分组，条目用 `*` 列表
+
+## 本地预览（可选）
+
+需要 Ruby 3.x：
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+打开 <http://127.0.0.1:4000>。本仓库当前维护者习惯直接推送后看线上效果。
+
+## 发布
+
+推送到 `master` 分支即触发 GitHub Pages 构建。首次部署需在仓库 Settings → Pages 里把 Source 设为 `Deploy from a branch` → `master` / `root`。
+
+## 常见坑
+
+- 中文路径的图片在 GitHub Pages 上可用，但 URL 会被转义成 `%E4%B8%AD...`，分享链接时注意
+- 文件名大小写敏感：Linux 上 `Resources/x.png` ≠ `resources/x.png`，本地 Windows 能跑、线上 404，引用时统一用小写目录名
+- front matter 的 `date` 必须写成 `2026-11-20`（月日补零），`2026-11-2` 会导致构建失败

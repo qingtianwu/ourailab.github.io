@@ -8,14 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "SZPU/ PAMI"
-title_separator          : "-"
-name                     : &name "PAMI"
-description              : &description "personal description"
-url                      : https://shaojiwan.github.io/
-                            #https://shaojiwan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+title                    : "OurAILab · 深职大模式分析与机器智能课题组"
+title_separator          : "|"
+name                     : &name "OurAILab"
+description              : &description "深圳职业技术大学人工智能学院 · 模式分析与机器智能课题组（OurAILab）"
+url                      : "https://ourailab.github.io"
+baseurl                  : ""
+repository               : "ourailab/ourailab.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,33 +22,33 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "logo2.png"
-  name             : "深职大-PAMI组"
-  pronouns         : # example: "she/her"  
-  bio              : "深职大-模式分析与机器智能课题组"
-  location         : "Shenzhen，深圳"
+  name             : "OurAILab 课题组"
+  pronouns         :
+  bio              : "深圳职业技术大学人工智能学院<br/>模式分析与机器智能课题组"
+  location         : "深圳市南山区 · 深圳职业技术大学"
   employer         : "深圳职业技术大学"
-  uri              : # URL
-  email            : "wuqingtian@szpu.edu.cn" 
+  uri              : "https://ourailab.github.io"
+  email            : "wuqingtian@szpu.edu.cn"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=dCcnFn4AAAAJ&hl=zh-CN"
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-2475-9156"
+  orcid            : "https://orcid.org/0000-0002-2475-9156"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Qingtian-Wu"# URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : "ourailab"
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
