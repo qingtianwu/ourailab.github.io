@@ -29,9 +29,20 @@ author_profile: true
 在读成员
 ======
 
-<div style="border:1px dashed #c9c2b0;border-radius:10px;padding:16px 18px;color:#6b6b6b;font-size:0.92em;">
-该板块正在补充成员照片与简介（联培研究生、本科生）。如果你是本组同学，欢迎把你的照片和一段 50 字以内的自我介绍发给吴老师。
+<div style="display:flex;gap:18px;align-items:flex-start;border:1px solid #e6e1d5;border-radius:10px;padding:18px;margin:20px 0;">
+<img src="/resources/王洋.jpg" alt="王洋" style="width:96px;height:96px;object-fit:cover;border-radius:50%;flex:0 0 auto;" />
+<div>
+<div style="font-weight:600;font-size:1.05em;">王洋</div>
+<div style="font-size:0.85em;color:#b98b3e;margin:2px 0 8px;">榆林大学联合培养硕士研究生</div>
+<div style="font-size:0.92em;color:#4a4a4a;line-height:1.7;">主要研究方向为计算机视觉与深度学习。目前参与花粉自动监测、人体姿态估计等相关科研工作，具有一定的算法开发与工程实践经验，积极参与学科竞赛及创新实践活动。</div>
+<div style="font-size:0.8em;color:#8a8a8a;margin-top:8px;">关键词：计算机视觉 · 深度学习 · 姿态估计 · 花粉自动监测</div>
 </div>
+</div>
+
+<div style="border:1px dashed #c9c2b0;border-radius:10px;padding:14px 18px;color:#6b6b6b;font-size:0.9em;">
+其余在读成员（联培研究生、本科生）的照片与简介正在补充。如果你是本组同学，把照片和一段 50 字以内的自我介绍发给吴老师即可。
+</div>
+
 
 毕业生
 ======
