@@ -40,4 +40,4 @@ redirect_from:
 代表成果
 ======
 
-完整列表见[成果发表](/publications/)。近五年以第一作者在 IEEE T-ITS、IEEE T-IM、IEEE T-CDS 等期刊发表论文多篇；获第七届中国 PRCV X 光安检挑战赛一等奖（第一完成人）、第九届吴文俊人工智能科技进步三等奖；申请发明专利多项。
+完整列表见[成果发表]({{ '/publications/' | relative_url }})。近五年以第一作者在 IEEE T-ITS、IEEE T-IM、IEEE T-CDS 等期刊发表论文多篇；获第七届中国 PRCV X 光安检挑战赛一等奖（第一完成人）、第九届吴文俊人工智能科技进步三等奖；申请发明专利多项。

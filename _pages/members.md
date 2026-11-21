@@ -30,7 +30,7 @@ author_profile: true
 ======
 
 <div style="display:flex;gap:18px;align-items:flex-start;border:1px solid #e6e1d5;border-radius:10px;padding:18px;margin:20px 0;">
-<img src="/resources/王洋.jpg" alt="王洋" style="width:96px;height:96px;object-fit:cover;border-radius:50%;flex:0 0 auto;" />
+<img src="{{ '/resources/王洋.jpg' | relative_url }}" alt="王洋" style="width:96px;height:96px;object-fit:cover;border-radius:50%;flex:0 0 auto;" />
 <div>
 <div style="font-weight:600;font-size:1.05em;">王洋</div>
 <div style="font-size:0.85em;color:#b98b3e;margin:2px 0 8px;">榆林大学联合培养硕士研究生</div>
@@ -50,31 +50,31 @@ author_profile: true
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px;margin:20px 0;">
 
 <div style="text-align:center;">
-<img src="/resources/代颢辰.jpg" alt="代颢辰" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
+<img src="{{ '/resources/代颢辰.jpg' | relative_url }}" alt="代颢辰" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
 <div style="font-weight:600;margin-top:8px;">代颢辰</div>
 <div style="font-size:0.8em;color:#8a8a8a;">2024 届</div>
 </div>
 
 <div style="text-align:center;">
-<img src="/resources/贾同兴.jpg" alt="贾同兴" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
+<img src="{{ '/resources/贾同兴.jpg' | relative_url }}" alt="贾同兴" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
 <div style="font-weight:600;margin-top:8px;">贾同兴</div>
 <div style="font-size:0.8em;color:#8a8a8a;">2024 届</div>
 </div>
 
 <div style="text-align:center;">
-<img src="/resources/伊东旭.jpg" alt="伊东旭" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
+<img src="{{ '/resources/伊东旭.jpg' | relative_url }}" alt="伊东旭" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
 <div style="font-weight:600;margin-top:8px;">伊东旭</div>
 <div style="font-size:0.8em;color:#8a8a8a;">2024 届</div>
 </div>
 
 <div style="text-align:center;">
-<img src="/resources/张朝盛.jpg" alt="张朝盛" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
+<img src="{{ '/resources/张朝盛.jpg' | relative_url }}" alt="张朝盛" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
 <div style="font-weight:600;margin-top:8px;">张朝盛</div>
 <div style="font-size:0.8em;color:#8a8a8a;">2024 届</div>
 </div>
 
 <div style="text-align:center;">
-<img src="/resources/谭耀祖.jpg" alt="谭耀祖" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
+<img src="{{ '/resources/谭耀祖.jpg' | relative_url }}" alt="谭耀祖" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
 <div style="font-weight:600;margin-top:8px;">谭耀祖</div>
 <div style="font-size:0.8em;color:#8a8a8a;">2024 届</div>
 </div>
@@ -102,4 +102,4 @@ author_profile: true
 想加入我们？
 ======
 
-课题组每年招收人工智能相关专业本科生参与科研训练与竞赛，也欢迎联培研究生。具体要求见[加入我们](/join/)。
+课题组每年招收人工智能相关专业本科生参与科研训练与竞赛，也欢迎联培研究生。具体要求见[加入我们]({{ '/join/' | relative_url }})。

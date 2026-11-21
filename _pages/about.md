@@ -17,42 +17,42 @@ redirect_from:
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin:24px 0;">
 <div style="border:1px solid #e6e1d5;border-radius:10px;overflow:hidden;">
-<img src="/resources/医学分割.png" alt="医学图像分割" style="width:100%;height:150px;object-fit:cover;display:block;" />
+<img src="{{ '/resources/医学分割.png' | relative_url }}" alt="医学图像分割" style="width:100%;height:150px;object-fit:cover;display:block;" />
 <div style="padding:10px 12px;"><strong>医学图像分割</strong><div style="font-size:0.85em;color:#6b6b6b;margin-top:4px;">辅助影像诊断、手术规划与疗效评估</div></div>
 </div>
 <div style="border:1px solid #e6e1d5;border-radius:10px;overflow:hidden;">
-<img src="/resources/姿态图.png" alt="人体姿态估计" style="width:100%;height:150px;object-fit:cover;display:block;" />
+<img src="{{ '/resources/姿态图.png' | relative_url }}" alt="人体姿态估计" style="width:100%;height:150px;object-fit:cover;display:block;" />
 <div style="padding:10px 12px;"><strong>人体姿态估计</strong><div style="font-size:0.85em;color:#6b6b6b;margin-top:4px;">2D/3D 关键点、动作识别与运动测量</div></div>
 </div>
 <div style="border:1px solid #e6e1d5;border-radius:10px;overflow:hidden;">
-<img src="/resources/PCB-det.png" alt="PCB 缺陷检测" style="width:100%;height:150px;object-fit:cover;display:block;" />
+<img src="{{ '/resources/PCB-det.png' | relative_url }}" alt="PCB 缺陷检测" style="width:100%;height:150px;object-fit:cover;display:block;" />
 <div style="padding:10px 12px;"><strong>PCB 缺陷检测</strong><div style="font-size:0.85em;color:#6b6b6b;margin-top:4px;">基于改进 YOLO 的产线级检测系统</div></div>
 </div>
 <div style="border:1px solid #e6e1d5;border-radius:10px;overflow:hidden;">
-<img src="/resources/X光检测.jpg" alt="X 光安检检测" style="width:100%;height:150px;object-fit:cover;display:block;" />
+<img src="{{ '/resources/X光检测.jpg' | relative_url }}" alt="X 光安检检测" style="width:100%;height:150px;object-fit:cover;display:block;" />
 <div style="padding:10px 12px;"><strong>X 光安检检测</strong><div style="font-size:0.85em;color:#6b6b6b;margin-top:4px;">违禁品智能识别，PRCV 挑战赛第一名</div></div>
 </div>
 </div>
 
-[查看全部十个研究方向 →](/research/)
+[查看全部十个研究方向 →]({{ '/research/' | relative_url }})
 
 ## 最新动态
 
 <div style="border-left:3px solid #b98b3e;padding-left:16px;margin:18px 0;">
 
-**2024-12-31** · [团队申请的《一种 X 光违禁品检测方法及装置》专利通过初审](/posts/2024/12-31/blog/)
+**2024-12-31** · [团队申请的《一种 X 光违禁品检测方法及装置》专利通过初审]({{ '/posts/2024/12-31/blog/' | relative_url }})
 
-**2024-11-16** · [OurAILab 团队亮相第二十六届高交会](/posts/2024/11-16/blog/)
+**2024-11-16** · [OurAILab 团队亮相第二十六届高交会]({{ '/posts/2024/11-16/blog/' | relative_url }})
 
-**2024-10-30** · [吴庆甜带队参观零一学院并洽谈合作](/posts/2024/10-30/blog/)
+**2024-10-30** · [吴庆甜带队参观零一学院并洽谈合作]({{ '/posts/2024/10-30/blog/' | relative_url }})
 
-**2024-10-20** · [IEEE PRCV X 光物品检测挑战赛荣获第一名](/posts/2024/10-20/blog/)
+**2024-10-20** · [IEEE PRCV X 光物品检测挑战赛荣获第一名]({{ '/posts/2024/10-20/blog/' | relative_url }})
 
-**2024-08-08** · [《基于改进 YOLOv10 的 PCB 缺陷检测系统》专利通过初审](/posts/2024/08-08/blog/)
+**2024-08-08** · [《基于改进 YOLOv10 的 PCB 缺陷检测系统》专利通过初审]({{ '/posts/2024/08-08/blog/' | relative_url }})
 
 </div>
 
-[查看全部团队活动 →](/year-archive/)
+[查看全部团队活动 →]({{ '/year-archive/' | relative_url }})
 
 ## 联系我们
 

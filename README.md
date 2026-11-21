@@ -2,9 +2,11 @@
 
 深圳职业技术大学人工智能学院 · 模式分析与机器智能课题组（OurAILab）官网源码。
 
-- 线上地址：<https://ourailab.github.io>
+- 线上地址：<https://qingtianwu.github.io/ourailab.github.io/>
 - 技术栈：Jekyll + [Academic Pages](https://academicpages.github.io/) 主题，由 GitHub Pages 自动构建
 - 正常使用时**不需要**在本地装 Ruby，改完推送即可，GitHub 会在 1~2 分钟内重新构建
+
+> ⚠️ 本站挂在 `qingtianwu.github.io` 的子路径下，`_config.yml` 里 **url + baseurl 是一对**（`url: https://qingtianwu.github.io` + `baseurl: /ourailab.github.io`）。因此页面里引用图片、链接必须写成 `{{ '/resources/x.png' | relative_url }}`，**不能**写成 `/resources/x.png`，否则线上会 404（CSS 和图片全丢）。将来整站迁到组织域名根目录时，只改 `_config.yml` 的 url/baseurl 两行即可。
 
 ## 目录结构（只需要关心这几个）
 
@@ -40,7 +42,7 @@ tags:
 正文第一段。
 
 <div class="archive__image">
-  <img src='/resources/图片文件名.jpg' alt="现场照片" style="max-width:100%;height:auto;" />
+  <img src="{{ '/resources/图片文件名.jpg' | relative_url }}" alt="现场照片" style="max-width:100%;height:auto;" />
 </div>
 
 正文继续。
@@ -49,7 +51,7 @@ tags:
 要点：
 
 - `permalink` 里的年月日要和文件名日期一致，格式为 `/posts/YYYY/MM-DD/blog/`
-- 图片先放进 `resources/`，再用 `/resources/文件名` 引用
+- 图片先放进 `resources/`，再用 `{{ '/resources/文件名' | relative_url }}` 引用
 - 图片文件名**尽量不要用空格和括号**，中文名可以用，但更推荐英文
 
 ## 怎么改成员
@@ -58,7 +60,7 @@ tags:
 
 ```html
 <div style="text-align:center;">
-<img src="/resources/张三.jpg" alt="张三" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
+<img src="{{ '/resources/张三.jpg' | relative_url }}" alt="张三" style="width:110px;height:110px;object-fit:cover;border-radius:50%;" />
 <div style="font-weight:600;margin-top:8px;">张三</div>
 <div style="font-size:0.8em;color:#8a8a8a;">2026 届</div>
 </div>
