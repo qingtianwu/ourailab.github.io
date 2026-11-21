@@ -1,18 +1,13 @@
-# Authors
+# 多作者配置（可选）
+#
+# 如果某篇页面的 front matter 里写了 author: "吴庆甜"，
+# 侧边栏与 SEO 就会用这里对应的信息，而不是 _config.yml 里的课题组信息。
+# 不写 author 字段时，统一使用 _config.yml 的 author 配置。
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+吴庆甜:
+  name        : "吴庆甜 Qingtian Wu"
+  uri         : "https://ourailab.github.io/cv/"
+  email       : "wuqingtian@szpu.edu.cn"
+  bio         : "深圳职业技术大学人工智能学院 讲师 · 计算机视觉与数字人"
+  avatar      : "logo2.png"
+  github      : "qingtianwu"
